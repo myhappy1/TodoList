@@ -1,0 +1,88 @@
+body {
+    background-color: #c2eeb4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #40b41c;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    color: #c2eeb4;
+    font-size: 2em;
+    margin-top: 0.5em;
+  }
+  
+  form {
+    margin-top: 1em;
+  }
+  
+  label {
+    color: #40b41c;
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="text"], input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 50%;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #c2eeb4;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+  }
+  
+  button:hover {
+    background-color: white;
+  }
+  
+  #todo-list {
+    font-size: 24px;
+    color: #40b41c;
+    text-align: center;
+    
+    margin-top: 20px;
+
+  }
+  
+  .todo-item {
+    border: 1px solid #c2eeb4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+  }
+  
+  .todo-item-text {
+    flex-grow: 1;
+  }
+  
+  .todo-item-delete {
+    background-color: #c2eeb4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 0.2em 0.5em;
+  }
+  
+  .todo-item-delete:hover {
+    background-color: #c2eeb4;
+  }
+  

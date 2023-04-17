@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>메인 페이지</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Todo List</h1>
+  <h2><a href='index.html'>로그인 화면으로 돌아가기</a></h2>
+  <form id="todo-form">
+    <div>
+      <label for="todo-input">리스트 추가<p>추가된 문자 클릭 시 삭제됩니다.</p></label>
+      <input type="text" id="todo-input" name="todo-input" required>
+    </div>
+    <div>
+        
+      <button type="submit">추가</button>
+      <button id="clear-all-button">모두 삭제</button>
+    </div>
+    
+  </form>
+  <div id="todo-list"></div>
+  <script src="main.js"></script>
+</body>
+</html>

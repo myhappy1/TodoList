@@ -1,0 +1,56 @@
+/* 전체 화면 스타일링 */
+body {
+    background-color: #c2eeb4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* 로그인 폼 스타일링 */
+  form {
+    background-color: #FFF;
+    border: 2px solid #c2eeb4;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #40b41c;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  
+  label {
+    color: #c2eeb4;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    border: none;
+    border-bottom: 2px solid #c2eeb4;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #c2eeb4;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c2eeb4;
+  }
+  
